@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/scottjehl/picturefill@3.0.2/dist/picturefill.js"></script>
+</head>
+<body>
+     <nav>
+        <div class="logo">Chef</div>
+        <a href="#" class="burger-nav"></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#chef">Our Chefs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+     </nav>
+     <div class="wrapper">
+        <div class="text">
+            <p>Be The Fastet In Delivering Your Food</p>
+            <p>Lorem ipsum dolor,  odit assumenda dicta quaerat.</p>
+            <a href="#">Contacr Here</a>
+        </div>
+        <picture>
+            <source srcset="images/chef.png" media="(max-width: 480px)">
+            <source srcset="images/chef.png" media="(max-width: 768px)">
+            <img srcset="images/chef.png" alt="…">
+        </picture>
+     </div>
+
+     <div class="services" id="services">
+        <p>what we serve</p>
+        <p>your favourite food delivery partner</p>
+        <div class="service">
+
+            <div class="service-item">
+                <img src="images/order.png" alt="">
+                <p>easy to order</p>
+                <p>something happen to order and something however</p>
+            </div>
+
+            <div class="service-item">
+                <img src="images/ship.png" alt="">
+                <p>fastest delivery</p>
+                <p>something happen to order and something however</p>
+            </div>
+
+            <div class="service-item">
+                <img src="images/deliver.png" alt="">
+                <p>best quality</p>
+                <p>something happen to order and something however</p>
+            </div>
+        </div>
+        <div class="chef" id="chef">
+            <p>our chefs</p>
+            <p>our awesome chefs</p>
+            <div class="chef-list">
+                <img src="images/chef1.png" alt="">
+                <img src="images/chef2.png" alt="">
+                <img src="images/chef3.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="contacts" id="contact">
+            <p>have any question?</p>
+            <p>contact us</p>
+            <div class="input-container">
+                <div><input type="text" placeholder="Your Name"></div>
+                <div><input type="text" placeholder="Enter Your Email"></div>
+                <div><input type="text" placeholder="Write Your Message Here..."></div>
+                <button>Send</button>
+            </div>
+        </div>
+
+        <footer>
+            <div class="icons">
+                <span><i class="fab fa-facebook fa-2xl"></i></span>
+                <span><i class="fab fa-instagram-square fa-2xl"></i></span>
+                <span><i class="fab fa-twitter-square fa-2xl"></i></span>
+                <span><i class="fab fa-youtube fa-2xl"></i></span>
+            </div>
+            
+            <div class="contents">
+                <p>privacy policy</p>
+                <p>our company</p>
+                <p>term of use</p>
+            </div>
+            <p>&copy;all right reserved</p>
+        </footer>
+     </div>
+     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
