@@ -388,6 +388,12 @@ footer .contents p:hover,footer > p:hover{
         text-align: center;
         padding: 10px;
     }
+    
+    nav ul li a:hover{
+        border-radius: initial;
+        background-color: initial;
+        color: #F92525;
+    }
 
     .chef .chef-list{
         display: block;
